@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Water Reminder",
+    "version": "1.0",
+    "description": "Reminds you to drink water every 2 hours.",
+    "permissions": ["notifications", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon.png"
+      }
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
